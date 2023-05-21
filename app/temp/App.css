@@ -1,0 +1,86 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.repo-container {
+  margin-bottom: 20px;
+}
+
+.repo-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.repo-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.language-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.language-item {
+  margin-bottom: 5px;
+}
+
+.fetch-button {
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chart-container {
+  margin-top: 40px;
+}
+
+.sticky-chart {
+  position: fixed;
+  top: 10vh;
+  right: 20vw;
+}
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
